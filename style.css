@@ -4,37 +4,37 @@
     --coffee: rgb(215, 168, 110);
     --cream: rgb(255, 235, 193);
 }
+
 * {
     margin: 0px;
     box-sizing: border-box;
 }
 
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: color-burn;
+}
+
+#content {
+    display: grid;
+    grid-template-rows: 4rem calc(100vh - 4rem);
+}
 #header {
-    background-color: var(--dark-brown);
     color: var(--cream);
     padding: 15px;
     height: 4rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
-#restaurant {
-    font-size: 2rem;
+#links {
     display: flex;
-    align-items: center;
-    gap: 15px;
-}
-
-#logo {
-    width: 60px;
-    height: 60px;
-}
-
-#links > ul {
-    display: flex;
-    gap: 15px;
+    gap: 2rem;
     font-size: 1.5rem;
+    font-weight: 600;
     list-style: none;
 }
 
@@ -43,6 +43,19 @@
 }
 
 #main {
-    background-color: var(--dark-brown-2);
     color: var(--cream);
+    /* margin: auto; */
+    position: absolute;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+}
+
+#restaurant-name {
+    font-weight: 900;
+    font-size: 6rem;
+}
+
+#description {
+    font-size: 2rem;
 }
