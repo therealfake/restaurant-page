@@ -1,0 +1,48 @@
+:root {
+    --dark-brown: rgb(142, 50, 0);
+    --dark-brown-2: rgb(166, 75, 42);
+    --coffee: rgb(215, 168, 110);
+    --cream: rgb(255, 235, 193);
+}
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#header {
+    background-color: var(--dark-brown);
+    color: var(--cream);
+    padding: 15px;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#restaurant {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#logo {
+    width: 60px;
+    height: 60px;
+}
+
+#links > ul {
+    display: flex;
+    gap: 15px;
+    font-size: 1.5rem;
+    list-style: none;
+}
+
+#links li:hover {
+    cursor: pointer;
+}
+
+#main {
+    background-color: var(--dark-brown-2);
+    color: var(--cream);
+}
