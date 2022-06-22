@@ -1,1 +1,3 @@
-console.log("test test 1 2 5");
+import renderHome from "./home";
+
+renderHome();
