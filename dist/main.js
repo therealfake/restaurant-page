@@ -13,27 +13,6 @@ __webpack_require__.r(__webpack_exports__);
 
 function renderHome() {
     let content = document.getElementById("content");
-   
-   // Top Nav Bar
-    let header = document.createElement("div");
-    header.id = "header";
-    content.appendChild(header);
-
-    let nav = document.createElement("ul");
-    nav.id = "links";
-    header.appendChild(nav);
-
-    let li = document.createElement("li");
-    li.textContent = "Home";
-    nav.appendChild(li);
-
-    li = document.createElement("li");
-    li.textContent = "Menu";
-    nav.appendChild(li);
-
-    li = document.createElement("li");
-    li.textContent = "Contact";
-    nav.appendChild(li);
 
     // Main Content
     let main = document.createElement("div");
@@ -78,6 +57,42 @@ __webpack_require__.r(__webpack_exports__);
 function renderContact(){
     
 }
+
+/***/ }),
+/* 4 */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ renderNav)
+/* harmony export */ });
+
+
+function renderNav() {
+    let content = document.getElementById("content");
+   
+    // Top Nav Bar
+     let header = document.createElement("div");
+     header.id = "header";
+     content.appendChild(header);
+ 
+     let nav = document.createElement("ul");
+     nav.id = "links";
+     header.appendChild(nav);
+ 
+     let li = document.createElement("li");
+     li.textContent = "Home";
+     nav.appendChild(li);
+ 
+     li = document.createElement("li");
+     li.textContent = "Menu";
+     nav.appendChild(li);
+ 
+     li = document.createElement("li");
+     li.textContent = "Contact";
+     nav.appendChild(li);
+}
+   
 
 /***/ })
 /******/ 	]);
@@ -140,14 +155,17 @@ var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
-/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2);
-/* harmony import */ var _contact__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3);
+/* harmony import */ var _nav_bar__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(4);
+/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1);
+/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(2);
+/* harmony import */ var _contact__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(3);
 
 
 
 
-(0,_home__WEBPACK_IMPORTED_MODULE_0__["default"])();
+
+(0,_nav_bar__WEBPACK_IMPORTED_MODULE_0__["default"])();
+(0,_home__WEBPACK_IMPORTED_MODULE_1__["default"])();
 })();
 
 /******/ })()
