@@ -277,8 +277,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 (0,_nav_bar__WEBPACK_IMPORTED_MODULE_0__["default"])();
-// renderHome();
-(0,_menu__WEBPACK_IMPORTED_MODULE_2__["default"])();
+(0,_home__WEBPACK_IMPORTED_MODULE_1__["default"])();
 
 function clearPage(){
     let content = document.getElementById("content");
