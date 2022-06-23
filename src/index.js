@@ -4,8 +4,7 @@ import renderMenu from "./menu";
 import renderContact from "./contact";
 
 renderNav();
-// renderHome();
-renderMenu();
+renderHome();
 
 function clearPage(){
     let content = document.getElementById("content");
