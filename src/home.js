@@ -14,7 +14,7 @@ function renderHome() {
     main.appendChild(name);
 
     let description = document.createElement("div");
-    description.id = "description";
+    description.classList.add("description");
     description.textContent = "It all starts with a cup of coffee. But how far can you take it?";
     main.appendChild(description);
 }

@@ -47,7 +47,6 @@ body {
 
 #main {
     color: var(--cream);
-    /* margin: auto; */
     position: absolute;
     justify-self: center;
     align-self: center;
@@ -60,6 +59,61 @@ body {
     font-family: 'Dancing Script', cursive;
 }
 
-#description {
+.description {
     font-size: 2rem;
 }
+
+#menu {
+    background-color: var(--cream);
+    height: 80vh;
+    width: 80vh;
+    justify-self: center;
+    align-self: center;
+    border-radius: 20px;
+    padding: 20px 40px;
+}
+
+#dishes {
+    color: var(--dark-brown-2);
+}
+
+.dish {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+.sub-sub-title {
+    font-size: 2rem;
+    color: var(--dark-brown);
+}
+
+#contact-content {
+    background-color: var(--cream);
+    height: 60vh;
+    width: 60vh;
+    justify-self: center;
+    align-self: center;
+    border-radius:20px;
+    padding: 20px 40px;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    gap: 3rem;
+    text-align: center;
+}
+
+.sub-title {
+    color: var(--dark-brown);
+    font-size: 3rem;
+    font-weight: 550;
+    text-align: center;
+    border-bottom: 2px solid var(--dark-brown);
+    margin-bottom: 40px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.detail {
+    color: var(--dark-brown-2);
+    font-size: 1.5rem;
+}
+
