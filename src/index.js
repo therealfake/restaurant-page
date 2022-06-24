@@ -2,6 +2,7 @@ import renderNav from "./nav-bar";
 import renderHome from "./home";
 import renderMenu from "./menu";
 import renderContact from "./contact";
+import './style.css';
 
 renderNav();
 renderHome();
@@ -12,8 +13,6 @@ function clearPage(){
     content.removeChild(content.lastChild);
 } 
 
-// renderHome();
-// renderContact();
 let links = document.querySelectorAll('#links > li')
 links.forEach((link) => {
     link.addEventListener('click', (e) => {
