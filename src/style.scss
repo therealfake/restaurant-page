@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+$dark-brown: rgb(142, 50, 0);
+$dark-brown-2: rgb(166, 75, 42);
+$coffee: rgb(215, 168, 110);
+$cream: rgb(255, 235, 193);
+
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url('./background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: color-burn;
+}
+
+#content {
+    display: grid;
+    grid-template-rows: 4rem calc(100vh - 4rem);
+}
+
+#header {
+    border-bottom: 2px solid $cream;
+    color: $cream;
+    padding: 15px;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    #links {
+        display: flex;
+        gap: 3rem;
+        font-size: 1.5rem;
+        font-weight: 600;
+        list-style: none;
+        
+        li {
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+#main {
+    color: $cream;
+    position: absolute;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+
+    #restaurant-name {
+        font-weight: 900;
+        font-size: 6rem;
+        font-family: 'Dancing Script', cursive;
+    }
+    
+    .description {
+        font-size: 2rem;
+    }
+}
+
+#menu {
+    background-color: $cream;
+    height: 85vh;
+    width: 80vh;
+    justify-self: center;
+    align-self: center;
+    border-radius: 20px;
+    padding: 20px 40px;
+
+    #dishes {
+        color: $dark-brown-2;
+    }
+
+    .dish {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin-bottom: 10px;
+    }
+    
+    .sub-sub-title {
+        font-size: 2rem;
+        color: $dark-brown;
+    }
+}
+
+#contact-content {
+    background-color: $cream;
+    height: 60vh;
+    width: 60vh;
+    justify-self: center;
+    align-self: center;
+    border-radius:20px;
+    padding: 20px 40px;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    gap: 3rem;
+    text-align: center;
+
+    .sub-title {
+        color: $dark-brown;
+        font-size: 3rem;
+        font-weight: 550;
+        text-align: center;
+        border-bottom: 2px solid $dark-brown;
+        margin-bottom: 40px;
+        font-family: 'Dancing Script', cursive;
+    }
+    
+    .detail {
+        color: $dark-brown-2;
+        font-size: 1.5rem;
+    }
+}
+
+
+

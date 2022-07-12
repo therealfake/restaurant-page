@@ -2,7 +2,7 @@ import renderNav from "./nav-bar";
 import renderHome from "./home";
 import renderMenu from "./menu";
 import renderContact from "./contact";
-import './style.css';
+import './style.scss';
 
 renderNav();
 renderHome();

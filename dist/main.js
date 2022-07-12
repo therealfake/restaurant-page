@@ -226,7 +226,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(11);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(12);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(12);
 
       
       
@@ -248,12 +248,12 @@ options.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWi
 options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
 options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
 
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__["default"], options);
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_scss__WEBPACK_IMPORTED_MODULE_6__["default"], options);
 
 
 
 
-       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
+       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_scss__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
 
 
 /***/ }),
@@ -561,7 +561,7 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap);"]);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ":root {\n    --dark-brown: rgb(142, 50, 0);\n    --dark-brown-2: rgb(166, 75, 42);\n    --coffee: rgb(215, 168, 110);\n    --cream: rgb(255, 235, 193);\n}\n\n* {\n    margin: 0px;\n    box-sizing: border-box;\n}\n\nbody {\n    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n    background-repeat: no-repeat;\n    background-size: cover;\n    background-blend-mode: color-burn;\n}\n\n#content {\n    display: grid;\n    grid-template-rows: 4rem calc(100vh - 4rem);\n}\n\n#header {\n    border-bottom: 2px solid var(--cream);\n    color: var(--cream);\n    padding: 15px;\n    height: 4rem;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n\n#links {\n    display: flex;\n    gap: 3rem;\n    font-size: 1.5rem;\n    font-weight: 600;\n    list-style: none;\n}\n\n#links li:hover {\n    cursor: pointer;\n}\n\n#main {\n    color: var(--cream);\n    position: absolute;\n    justify-self: center;\n    align-self: center;\n    text-align: center;\n}\n\n#restaurant-name {\n    font-weight: 900;\n    font-size: 6rem;\n    font-family: 'Dancing Script', cursive;\n}\n\n.description {\n    font-size: 2rem;\n}\n\n#menu {\n    background-color: var(--cream);\n    height: 85vh;\n    width: 80vh;\n    justify-self: center;\n    align-self: center;\n    border-radius: 20px;\n    padding: 20px 40px;\n}\n\n#dishes {\n    color: var(--dark-brown-2);\n}\n\n.dish {\n    display: flex;\n    flex-direction: column;\n    gap: 5px;\n    margin-bottom: 10px;\n}\n.sub-sub-title {\n    font-size: 2rem;\n    color: var(--dark-brown);\n}\n\n#contact-content {\n    background-color: var(--cream);\n    height: 60vh;\n    width: 60vh;\n    justify-self: center;\n    align-self: center;\n    border-radius:20px;\n    padding: 20px 40px;\n    display: grid;\n    grid-template-rows: 50% 50%;\n    gap: 3rem;\n    text-align: center;\n}\n\n.sub-title {\n    color: var(--dark-brown);\n    font-size: 3rem;\n    font-weight: 550;\n    text-align: center;\n    border-bottom: 2px solid var(--dark-brown);\n    margin-bottom: 40px;\n    font-family: 'Dancing Script', cursive;\n}\n\n.detail {\n    color: var(--dark-brown-2);\n    font-size: 1.5rem;\n}\n\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\n  margin: 0px;\n  box-sizing: border-box;\n}\n\nbody {\n  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-repeat: no-repeat;\n  background-size: cover;\n  background-blend-mode: color-burn;\n}\n\n#content {\n  display: grid;\n  grid-template-rows: 4rem calc(100vh - 4rem);\n}\n\n#header {\n  border-bottom: 2px solid rgb(255, 235, 193);\n  color: rgb(255, 235, 193);\n  padding: 15px;\n  height: 4rem;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n#header #links {\n  display: flex;\n  gap: 3rem;\n  font-size: 1.5rem;\n  font-weight: 600;\n  list-style: none;\n}\n#header #links li:hover {\n  cursor: pointer;\n}\n\n#main {\n  color: rgb(255, 235, 193);\n  position: absolute;\n  justify-self: center;\n  align-self: center;\n  text-align: center;\n}\n#main #restaurant-name {\n  font-weight: 900;\n  font-size: 6rem;\n  font-family: \"Dancing Script\", cursive;\n}\n#main .description {\n  font-size: 2rem;\n}\n\n#menu {\n  background-color: rgb(255, 235, 193);\n  height: 85vh;\n  width: 80vh;\n  justify-self: center;\n  align-self: center;\n  border-radius: 20px;\n  padding: 20px 40px;\n}\n#menu #dishes {\n  color: rgb(166, 75, 42);\n}\n#menu .dish {\n  display: flex;\n  flex-direction: column;\n  gap: 5px;\n  margin-bottom: 10px;\n}\n#menu .sub-sub-title {\n  font-size: 2rem;\n  color: rgb(142, 50, 0);\n}\n\n#contact-content {\n  background-color: rgb(255, 235, 193);\n  height: 60vh;\n  width: 60vh;\n  justify-self: center;\n  align-self: center;\n  border-radius: 20px;\n  padding: 20px 40px;\n  display: grid;\n  grid-template-rows: 50% 50%;\n  gap: 3rem;\n  text-align: center;\n}\n#contact-content .sub-title {\n  color: rgb(142, 50, 0);\n  font-size: 3rem;\n  font-weight: 550;\n  text-align: center;\n  border-bottom: 2px solid rgb(142, 50, 0);\n  margin-bottom: 40px;\n  font-family: \"Dancing Script\", cursive;\n}\n#contact-content .detail {\n  color: rgb(166, 75, 42);\n  font-size: 1.5rem;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -866,7 +866,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2);
 /* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3);
 /* harmony import */ var _contact__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(4);
-/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(5);
+/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(5);
 
 
 
